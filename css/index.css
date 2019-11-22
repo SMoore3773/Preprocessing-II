@@ -175,20 +175,23 @@ nav {
   align-items: center;
   margin: 3%;
   padding: 0 12% 0 12%;
-  border: 1px solid green;
 }
 nav .navList {
   width: 45%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 nav .navLink {
   margin: 0 2% 0 2%;
   text-decoration: none;
   line-height: 1.5;
   font-size: 1.6rem;
+  color: black;
+}
+nav .navLink:visited {
+  color: black;
 }
 .footer {
   width: 100%;
@@ -206,6 +209,11 @@ nav .navLink {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.home .content-section .text-content-top {
+  margin: 3% 0 3% 0;
+  padding-bottom: 30px;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .home .content-section .text-content {
   width: 48%;
@@ -246,4 +254,10 @@ nav .navLink {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.line {
+  border-bottom: 2px dashed #C0C0C0;
+  margin: auto;
+  margin-bottom: -30px;
+  width: 98%;
 }

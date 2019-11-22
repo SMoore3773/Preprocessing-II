@@ -255,6 +255,15 @@ nav .navLink:visited {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  width: 98%;
+  margin: auto;
+  background-color: #008080;
+  color: white;
+  font-size: 1.8rem;
+  padding: 15px;
+  border-radius: 1.8rem;
+}
 .line {
   border-bottom: 2px dashed #C0C0C0;
   margin: auto;

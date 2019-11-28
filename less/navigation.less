@@ -1,1 +1,44 @@
 // Navigation Styles here
+.topBar {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    top: 0;
+    width:100%;
+    height:60px;
+}
+nav{
+    .flex(row, space-between, center);
+    margin: auto;
+    width:96%;
+    max-width:800px;
+    .paddingLR(12%);
+    .paddingTB(10px);
+    
+    .navList {
+        
+        .flex(row, space-between, center);
+    }
+    .navLink {
+        margin: 0 5px 0 5px;
+        padding: 5px 10px 5px 10px;
+        text-decoration: none;
+        line-height: 1.5;
+        font-size: 1.6rem;
+        color:black;
+        &:visited {
+            color:black;
+        }
+       
+    }
+    
+}
+@media @mobile {
+    nav{
+        flex-direction: column; 
+    }
+    .topBar{
+        height:94px;
+    }
+             
+   
+}   

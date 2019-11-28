@@ -1,1 +1,28 @@
 // Mixins in here
+
+
+.flex(@dir: row; @jus: space-between; @ali: center;) {
+    display:flex;
+    flex-direction: @dir;
+    justify-content: @jus;
+    align-items: @ali;
+}
+.paddingTB(@numTB) {
+    padding: @numTB 0 @numTB 0;
+}
+.paddingLR(@numLR) {
+    padding: 0 @numLR 0 @numLR;
+}
+
+.marginTB(@marTB) {
+    margin: @marTB 0 @marTB 0;
+}
+.btnstyl(){
+    width: 98%;
+    margin: auto;
+    background-color: rgb(0,128,128);
+    color:white;
+    font-size: 1.8rem;
+    padding:15px;
+    border-radius: 1.8rem;
+}
